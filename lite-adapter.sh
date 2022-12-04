@@ -18,9 +18,9 @@ targetArch=64
 
 [ -z "$ANDROID_BUILD_TOP" ] && ANDROID_BUILD_TOP=/build2/AOSP-11.0/
 if [ "$targetArch" == 32 ];then
-    srcFile="$ANDROID_BUILD_TOP/out/target/product/phhgsi_a64_ab/system.img"
+    srcFile="$ANDROID_BUILD_TOP/out/target/product/tdgsi_a64_ab/system.img"
 else
-    srcFile="$ANDROID_BUILD_TOP/out/target/product/phhgsi_arm64_ab/system.img"
+    srcFile="$ANDROID_BUILD_TOP/out/target/product/tdgsi_arm64_ab/system.img"
 fi
 if [ -f "$2" ];then
     srcFile="$2"
